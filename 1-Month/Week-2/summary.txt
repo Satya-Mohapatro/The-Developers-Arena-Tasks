@@ -1,0 +1,21 @@
+Learned about data structures in Python:
+
+    Lists, tuples, dictionaries, and sets for organizing and managing data.
+
+Understood functions for writing reusable blocks of code.
+
+Learned lambda functions for writing small, one-line functions quickly.
+
+Explored recursion to solve problems by calling a function within itself.
+
+Practiced list comprehensions for creating and filtering lists in a concise way.
+
+Applied concepts by:
+
+    Removing duplicates from a list using set.
+    Filtering data using loops and conditions.
+    Writing a data cleaning script that:
+        Removes duplicates from data.
+        Filters data based on a threshold.
+
+Gained confidence in using data structures and functions for basic data cleaning tasks.

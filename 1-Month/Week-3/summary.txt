@@ -1,0 +1,31 @@
+Learned NumPy basics:
+
+    Created and worked with arrays for numerical data.
+    Performed element-wise operations (addition, mean, multiplication).
+    Understood broadcasting for efficient operations on arrays of different shapes.
+
+Learned Pandas basics:
+
+    Used Series (1D labeled data) and DataFrames (2D tables) for data handling.
+    Practiced indexing and selecting rows/columns in DataFrames.
+    Handled missing values using dropna() and fillna().
+    Learned grouping and aggregation using groupby() to compute summaries.
+
+Applied concepts by:
+
+    Loading a dataset in Pandas.
+    Cleaning data by removing missing values.
+    Calculating the average of a numeric column.
+    Grouping data by a categorical column to calculate mean and count.
+
+Gained confidence in using NumPy and Pandas for real-world data cleaning and analysis.
+
+
+
+
+
+
+
+
+
+

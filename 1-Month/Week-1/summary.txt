@@ -1,0 +1,21 @@
+Learned Python basics:
+    Variables: declaration, naming, assignment
+    Data types: int, float, string, list, tuple, dictionary
+    Operators: arithmetic, comparison, logical
+
+Practiced input() for user input and print() for output.
+
+Understood conditional statements (if, elif, else) for decision-making.
+
+Learned loops (for, while) to repeat tasks efficiently.
+
+Applied concepts by:
+
+    Building a temperature converter (Celsius to Fahrenheit).
+    Creating a basic calculator (add, subtract, multiply, divide).
+
+Completed a client project:
+
+    Wrote a script to calculate and display minimum, maximum, and average temperature from a list.
+
+Gained confidence in basic data processing and Python scripting.

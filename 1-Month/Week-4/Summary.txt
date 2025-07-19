@@ -1,0 +1,24 @@
+Learned Matplotlib basics:
+
+    Created line plots, scatter plots, bar charts, and histograms.
+    Added titles, labels, and customized plots.
+
+Learned Seaborn basics:
+
+    Created advanced statistical plots easily.
+    Used scatterplot, histplot, boxplot, heatmap, and pairplot.
+    Applied attractive themes and color palettes for clearer visuals.
+
+Understood the purpose of data visualization for identifying patterns and relationships in data.
+
+Applied concepts by:
+
+    Loading a dataset using Pandas.
+    Creating scatter plots to analyze relationships between numerical features.
+    Using histograms to understand data distributions.
+    Using boxplots to identify distributions and outliers across categories.
+    Generating heatmaps to visualize correlations among numeric features.
+
+Learned to handle errors like string columns in correlation matrices by subsetting numeric columns.
+
+Gained confidence in using Matplotlib and Seaborn for analysis and reporting.
