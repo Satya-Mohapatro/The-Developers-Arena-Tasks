@@ -1,0 +1,44 @@
+                        Client Project Report – House Price Prediction using Linear Regression
+
+1. Introduction
+    The objective of this project is to build a prediction model for house prices. Since no dataset was provided by the client, we used the California Housing dataset available in scikit-learn. This dataset contains information about housing features (income, rooms, age, location) and corresponding house prices.
+
+2. Data Overview
+
+    Rows: 20,640
+    Features: 8 numerical predictors
+    Target: Median house value (in units of $100,000)
+    Features Used:
+        Median Income (MedInc)
+        House Age (HouseAge)
+        Average Rooms (AveRooms)
+        Average Bedrooms (AveBedrms)
+        Population (Population)
+        Average Occupancy (AveOccup)
+        Latitude & Longitude (geographic info)
+
+3. Methodology
+
+    Loaded dataset using fetch_california_housing.
+    Split data into training (80%) and test (20%) sets.
+    Trained Linear Regression model using sklearn.linear_model.
+    Evaluated predictions using Mean Squared Error (MSE) and R² score.
+    Analyzed feature coefficients to interpret importance.
+
+4. Results
+
+    Mean Squared Error (MSE): ~0.53
+    R² Score: ~0.60 (model explains ~60% of variance in house prices).
+    Feature Importance (Top Predictors):
+        Median Income (MedInc) → strongest positive impact on house prices.
+        Latitude & Longitude → strong geographic influence.
+        Average Rooms (AveRooms) → moderate positive influence.
+
+5. Insights
+
+    Income is the most significant driver of house prices. Higher income areas have higher housing prices.
+    Geographic location (latitude, longitude) is strongly tied to pricing, showing the effect of urban vs rural areas.
+    House age and population have weaker correlations compared to income and location.
+
+6. Conclusion
+    The model successfully predicts house prices with reasonable accuracy (R² ≈ 0.60). Although Linear Regression works as a baseline, more complex models (Random Forest, Gradient Boosting) could improve performance.

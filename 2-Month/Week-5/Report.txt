@@ -1,0 +1,56 @@
+                                        Exploratory Data Analysis (EDA) Report
+
+1. Introduction
+
+    The Titanic dataset contains passenger information such as demographics, class, fare, and survival status. The objective of this analysis is to perform Exploratory Data Analysis (EDA) to identify key patterns, relationships, and insights.
+    Rows: 891
+    Columns: 15
+    Features: Categorical & Numerical (e.g., age, fare, sex, class, survival)
+
+2. Dataset Overview
+
+    Shape: 891 rows × 15 columns
+    Column Types: mix of integers, floats, and categorical (object) variables.
+    Missing Values:
+    Age (~20% missing)
+    Deck (~77% missing)
+    Embark_town (~2 missing)
+
+    Data cleaning required before modeling.
+
+3. Categorical Features
+
+    Sex: Male (64.8%), Female (35.2%)
+    Survival Rate: 38.4% survived, 61.6% did not.
+    Pclass Distribution: 1st Class (24.2%), 2nd Class (20.6%), 3rd Class (55.2%).
+
+4. Univariate Analysis
+
+    Age Distribution: Right-skewed, most passengers between 20–40 years.
+    Fare Distribution: Highly skewed with outliers (very expensive tickets).
+    Survival Distribution: Imbalanced (majority did not survive).
+    Pclass Distribution: Majority of passengers belonged to 3rd class.
+
+5. Bivariate Analysis
+
+    Age vs Survival: Younger passengers had slightly higher survival rates.
+    Sex vs Survival: Females had a survival rate of ~74% vs 18% for males.
+    Fare vs Survival: Higher ticket fares correlated with higher survival.
+    Pclass vs Survival: 1st class survival rate ~63%, 3rd class ~24%.
+
+6. Multivariate Analysis
+
+    Pairplot: Reveals strong separation of survival rates by fare and class.
+    Heatmap: Strong negative correlation between pclass and fare (–0.55).
+
+7. Key Insights
+
+    Gender bias in survival: Women had much higher chances of survival.
+    Class mattered: Higher-class passengers had better survival rates.
+    Fare as an indicator: Expensive tickets associated with higher survival.
+    Age missing values: Need imputation before using in modeling.
+    Outliers in Fare: Must be handled to avoid skewing ML models.
+
+8. Conclusion
+
+    The EDA shows that survival was strongly influenced by gender, class, and fare. The dataset contains missing values (age, deck) and skewed variables (fare), which must be handled in preprocessing. These findings provide a strong foundation for hypothesis testing and predictive modeling.

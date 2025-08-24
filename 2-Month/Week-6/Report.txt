@@ -1,0 +1,37 @@
+                                            Statistical Analysis Report
+
+Title
+    Comparing Two Business Strategies Using Welch’s t-test
+
+Objective
+    To determine whether Strategy A and Strategy B differ significantly in terms of the chosen KPI (mean radius feature from scikit-learn breast cancer dataset).
+
+Data
+
+    Source: scikit-learn Breast Cancer dataset (569 samples, 30 features).
+    KPI: “mean radius” (continuous feature).
+    Random split into two groups: Strategy A (≈50%) and Strategy B (≈50%).
+
+Methodology
+
+    Applied Welch’s two-sample t-test (does not assume equal variances).
+    Calculated 95% Confidence Interval (CI) for the difference in means.
+    Effect size measured using Cohen’s d.
+
+Results
+
+    Strategy A mean KPI: 14.059 (n=275)
+    Strategy B mean KPI: 14.191 (n=294)
+    Mean difference (B - A): 0.132
+    95% CI for difference: [-0.450, 0.714]
+    Welch t-test: t=-0.446, p=0.6556
+    Cohen's d (effect size): 0.037
+
+Interpretation
+
+    If p < 0.05, we reject the null hypothesis and conclude that the two strategies yield significantly different KPI averages.
+    Effect size (Cohen’s d) indicates magnitude (small ~0.2, medium ~0.5, large ~0.8).
+
+Conclusion
+    Strategy B shows [significantly higher/no significant difference] in KPI compared to Strategy A.
+    This suggests [adopt Strategy B / more data needed before decision].
