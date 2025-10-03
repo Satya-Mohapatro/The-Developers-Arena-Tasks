@@ -1,0 +1,10 @@
+Customer Segmentation Results
+Number of clusters: 5
+Cluster Centers:
+[[55.2962963  49.51851852]
+ [86.53846154 82.12820513]
+ [25.72727273 79.36363636]
+ [88.2        17.11428571]
+ [26.30434783 20.91304348]]
+Saved visualization: customer_segmentation.png
+Saved clustered data: customer_clusters.csv
