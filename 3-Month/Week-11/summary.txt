@@ -1,0 +1,30 @@
+Week 11 – Introduction to Deep Learning
+
+1. Neural Networks Basics
+
+    Neural networks are composed of layers: input → hidden → output.
+    Each neuron applies a linear transformation (Wx + b) followed by an activation function (e.g., ReLU, sigmoid).
+    Networks are trained using backpropagation and gradient descent to minimize loss.
+
+2. Deep Learning
+
+    Deep learning uses multiple hidden layers to automatically extract hierarchical features.
+    Particularly effective for image, speech, and text data.
+
+3. Keras & TensorFlow
+
+    Keras provides a high-level API to quickly build and train neural networks.
+    TensorFlow is the backend engine handling computations efficiently on CPU/GPU.
+
+4. Hands-On Implementation
+
+    Built a simple neural network for the Iris dataset to classify flower species.
+    Built a deeper network for MNIST dataset for handwritten digit classification.
+    Preprocessing included normalization and one-hot encoding of labels.
+
+5. Key Learnings
+
+    Activation functions determine the non-linearity learned by the network.
+    Deep networks can handle more complex patterns than shallow networks.
+    Saving trained models allows reuse without retraining.
+    Training metrics (accuracy & loss) help monitor model performance.
