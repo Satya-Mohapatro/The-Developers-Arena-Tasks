@@ -1,0 +1,33 @@
+Objective:
+    To build and evaluate an LSTM (Long Short-Term Memory) model for time series forecasting, focusing on stock price prediction.
+
+Project Overview:
+
+    Goal: Predict next-day stock prices using historical data.
+    Dataset: Apple (AAPL) historical stock prices (2018–2024) downloaded via Yahoo Finance
+    Model Used: Recurrent Neural Network (RNN) with LSTM layers.
+    Framework: TensorFlow / Keras
+
+Data Collection & Preprocessing:
+
+    Fetched stock price data using yfinance.
+    Selected the “Close” price and normalized values (0–1 range).
+    Created time sequences (60-day lookback window).
+
+Model Development:
+
+    Designed a two-layer LSTM network followed by Dense layers.
+    Used Adam optimizer and mean_squared_error loss.
+
+Training & Evaluation:
+    Trained for 20 epochs with early stopping.
+    Evaluated model using MSE and visualized training/validation loss.
+    Plotted Actual vs Predicted stock prices to assess performance.
+
+Results:
+    The LSTM model effectively captured stock price trends.
+    The prediction curve closely followed the actual stock price movement.
+    Demonstrated LSTM’s ability to learn temporal dependencies in time series data.
+
+Tools & Technologies:
+    Python, TensorFlow/Keras, Pandas, NumPy, Matplotlib, Scikit-learn, Yahoo Finance API (yfinance)
